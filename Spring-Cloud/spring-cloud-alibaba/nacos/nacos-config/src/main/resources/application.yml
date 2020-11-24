@@ -1,0 +1,22 @@
+server:
+  port: 18084
+
+user:
+  name: starrk
+  age: 12
+
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

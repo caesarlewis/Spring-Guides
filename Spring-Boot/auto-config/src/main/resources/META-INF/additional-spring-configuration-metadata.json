@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "com.jasonless.name",
+      "type": "java.lang.String",
+      "description": "jasonless名称",
+      "defaultValue": "jasonless"
+    }
+  ]
+}
